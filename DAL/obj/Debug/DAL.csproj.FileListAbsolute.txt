@@ -1,0 +1,9 @@
+D:\SOFTWARE\EqipMedApplication\DAL\bin\Debug\DAL.dll
+D:\SOFTWARE\EqipMedApplication\DAL\bin\Debug\DAL.pdb
+D:\SOFTWARE\EqipMedApplication\DAL\bin\Debug\BE.dll
+D:\SOFTWARE\EqipMedApplication\DAL\bin\Debug\BE.pdb
+D:\SOFTWARE\EqipMedApplication\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\SOFTWARE\EqipMedApplication\DAL\obj\Debug\DAL.dll
+D:\SOFTWARE\EqipMedApplication\DAL\obj\Debug\DAL.pdb
+D:\SOFTWARE\EqipMedApplication\DAL\bin\Debug\ELogging.dll
+D:\SOFTWARE\EqipMedApplication\DAL\bin\Debug\ELogging.pdb

@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs" Inherits="EqipMedApplication.Admin.AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../Stylesheet/style.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+      <form id="form1" runat="server">
+     <div class="header-holder">
+        <div class="header-content container">
+            <div class="header-logo">
+                <asp:Image ID="imgLogo" runat="server" ImageUrl="~/ProductImages/logo.jpg" Height="30px" />
+               </div>
+            <div class="search-holder">
+                <div class="form-group">
+                   
+                       </div>
+                  </div>
+            <div>
+         
+           </div>
+             <div class="header-menu d-flex">
+                <div class="menu-item">
+          
+                </div>
+                <div class="menu-item">
+                  
+                </div>
+                <div class="menu-item">
+                
+                </div>
+                <div class="menu-item">
+                </div>
+                <div class="menu-item ">
+              
+                </div>
+                <div class="menu-item">
+           
+                </div>
+                <div class="menu-item">
+                   
+                </div>
+                <div class="menu-item">
+                     <asp:Button ID="btnLogOut" runat="server" Text="Log Out" class="btn btn-white-outline" OnClick="btnLogOut_Click" />
+                </div>
+              </div>
+            </div>
+        </div>
+    <div class="main-container homepage-holder">
+        <div class="main-content container">
+            <div class="tabs-holder">
+                <div class="tab"> </div>
+                <asp:LinkButton ID="lbtnOrder" runat="server" OnClick="lbtnOrder_Click" style="margin-right:10px">Order Details</asp:LinkButton> 
+                <asp:LinkButton ID="lbtnProduct" runat="server" OnClick="lbtnProduct_Click" style="margin-right:10px">Product Details</asp:LinkButton> 
+                <asp:LinkButton ID="lbtnCustomer" runat="server" OnClick="lbtnCustomer_Click" style="margin-right:10px" >Customer Details</asp:LinkButton>
+                <asp:LinkButton ID="lbtnSupplier" runat="server" OnClick="lbtnSupplier_Click" style="margin-right:10px" >Supplier Details</asp:LinkButton>
+                <asp:LinkButton ID="lbtnCategory" runat="server" OnClick="lbtnCategory_Click" style="margin-right:10px">Category Details</asp:LinkButton>
+            </div>
+
+            <div class="search-filter-block d-flex align-items-center">
+                <div class="search mr-5 w-50">
+                    <div class="form-group mb-0 d-flex px-5">
+                        <asp:ContentPlaceHolder ID="plhSearch" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+
+                <div class="search mr-5 w-50">
+                    <div class="form-group mb-0 d-flex px-5">
+                        <asp:ContentPlaceHolder ID="plhFilter" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content-holder overflow-auto">
+                <asp:ContentPlaceHolder ID="plhData" runat="server"></asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+    </div>
+  
+    </form>
+</body>
+</html>

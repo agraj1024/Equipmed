@@ -1,0 +1,5 @@
+D:\SOFTWARE\EqipMedApplication\BE\bin\Debug\BE.dll
+D:\SOFTWARE\EqipMedApplication\BE\bin\Debug\BE.pdb
+D:\SOFTWARE\EqipMedApplication\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+D:\SOFTWARE\EqipMedApplication\BE\obj\Debug\BE.dll
+D:\SOFTWARE\EqipMedApplication\BE\obj\Debug\BE.pdb

@@ -1,0 +1,5 @@
+D:\SOFTWARE\EqipMedApplication\ELogging\bin\Debug\ELogging.dll
+D:\SOFTWARE\EqipMedApplication\ELogging\bin\Debug\ELogging.pdb
+D:\SOFTWARE\EqipMedApplication\ELogging\obj\Debug\ELogging.csprojResolveAssemblyReference.cache
+D:\SOFTWARE\EqipMedApplication\ELogging\obj\Debug\ELogging.dll
+D:\SOFTWARE\EqipMedApplication\ELogging\obj\Debug\ELogging.pdb
